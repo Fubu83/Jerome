@@ -1,0 +1,27 @@
+Package: fubupackage
+Title: A dataframe plot
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Ifebunandu",
+           family = "Okeke",
+           role = c("aut", "cre"),
+           email = "first.last@example.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: What the package does (The package produces a line plot of a dataframe utilizing two functions).
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1
+Suggests: 
+    spelling,
+    testthat (>= 3.0.0)
+Language: en-US
+Imports: 
+    ggplot2,
+    tibble,
+    magrittr,
+    dplyr (>= 1.0.2)
+Config/testthat/edition: 3
+URL: https://github.com/STAT-413-613-21S/fubupackage
+BugReports: https://github.com/STAT-413-613-21S/fubupackage/issues
